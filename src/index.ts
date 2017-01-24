@@ -125,6 +125,7 @@ import { WebIntent } from './plugins/webintent';
 import { YoutubeVideoPlayer } from './plugins/youtube-video-player';
 import { ZBar } from './plugins/z-bar';
 import { Zip } from './plugins/zip';
+import { MicrOcr } from './plugins/micr-ocr';
 export * from './plugins/3dtouch';
 export * from './plugins/actionsheet';
 export * from './plugins/admob';
@@ -247,6 +248,7 @@ export * from './plugins/webintent';
 export * from './plugins/youtube-video-player';
 export * from './plugins/z-bar';
 export * from './plugins/zip';
+export * from './plugins/micr-ocr';
 
 // Window export to use outside of a module loading system
 window['IonicNative'] = {
@@ -370,7 +372,8 @@ window['IonicNative'] = {
   WebIntent,
   YoutubeVideoPlayer,
   ZBar,
-  Zip
+  Zip,
+  MicrOcr
 };
 
 initAngular1(window['IonicNative']);
